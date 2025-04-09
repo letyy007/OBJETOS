@@ -2,10 +2,13 @@ const endereco = {
     logradouro: " Rua Francisco bastos Magalhaes",
     cep: "46500000",
     estado: "bahia",
-    municipio: "macaubas"
+    municipio: "macaubas",
+    contato: {
+        nome: "Letícia Graziele",
+    telefone: "xxxxxxxxx" ,
+    whatsapp: "xxxxxxxxx"
+    }
 } ;
 
-console.log(endereco);
-console.log(cep);
-console.log(estado);
-console.log(municipio);
+console.log(endereco["contato"]["nome"])
+console.log(endereco["contato"].telefone)
